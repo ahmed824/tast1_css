@@ -1,0 +1,348 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    float: right;
+    display: -webkit-inline-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.nav li {
+    padding: 10px 30px ;
+    font-weight: bold;
+    list-style: none;
+    
+}
+
+.head {
+   padding:  10px 100px 0px 100px;
+   box-shadow: 2px 2px 2px 1px rgba(172, 172, 172, 0.2);
+}
+.home {
+    background-image: url('./images/bc.jpg');
+    background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+
+}
+.home img {
+width: 100%;
+
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.home .home_center {
+    z-index: 99;
+    padding: 220px;
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #10db09;
+    text-shadow: none;
+    background: transparent;
+    box-shadow: transparent;
+    border: 1px solid #00fd3780;
+    transition: 0.5s ease;
+    user-select: none;
+    background: #ffffff;
+  }
+  
+  #btn:hover,:focus {
+    color: #ffffff;
+    background: #10db09;
+    border: 1px solid #10db09;
+    text-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 20px #ffffff;
+    box-shadow: 0 0 5px #10db09,
+                0 0 20px #10db09,
+                0 0 50px #10db09,
+                0 0 100px #10db09;
+  }
+
+/* =================================== */
+  .about {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.about .container {
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.about img {
+    height: 190px;
+    margin-right: 25px;
+    margin-bottom: 45px;
+}
+
+.about .text {
+    display: inline-block;
+    position: absolute;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+.about .text h2 {
+    font-size: 25px;
+    color: #10db09;
+    letter-spacing: 2px;
+}
+
+.about .text pre {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.about .text p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.about .about_cards {
+    text-align: center;
+}
+
+.about .card {
+    display: inline-block;
+    width: 19%;
+    margin: 15px;
+    border: 2px solid #10db09;
+}
+
+.about .card i {
+    color: #10db09;
+    font-size: 30px;
+    display: block;
+    margin-top: 10px;
+}
+
+.about .card h3 {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.about .card p {
+    margin-bottom: 10px;
+}
+
+/* ======================================== */
+.services {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.title {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.title h2 {
+    color: #10db09;
+    font-size: 30px;
+}
+
+.title::after {
+    content: ",,";
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    color: #10db09;
+    top: -99%;
+    right: 35%;
+}
+
+.title::before {
+    content: "،،";
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    color: #10db09;
+    left: 35%;
+    top: -57%;
+}
+
+.services .container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.services .card {
+    display: inline-block;
+    width: 26%;
+    margin: 15px;
+    padding: 10px 5px 0;
+    border: 2px solid #10db09;
+    background-color: #e7e7e7;
+}
+
+.services .card h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.services .card p {
+    color: #777;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.services .card span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.services .card a {
+    color: #10db09;
+    font-size: 25px;
+    display: block;
+}
+/* ===================================== */
+.support .title {
+    position: relative;
+    margin-bottom: 10px;
+    bottom: -50px;
+}
+
+.support .title h2 {
+    font-size: 30px;
+}
+
+.support .title::after {
+    content: ",,";
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    color: #10db09;
+    top: -96%;
+    right: 41.7%;
+}
+
+.support .title::before {
+    content: "،،";
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    color: #10db09;
+    left: 41%;
+    top: -57%;
+}
+
+.support {
+    position: relative;
+    text-align: center;
+    margin-bottom: -4px;
+}
+
+video {
+    width: 100%;
+}
+
+.support .container {
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 90%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 90px;
+}
+
+.support .text {
+    background: rgb(0 0 0 / 40%);
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+    padding: 1rem;
+}
+
+.support .text input,
+.support .text select,
+.support .text textarea,
+.support .text button {
+    border-radius: 2px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    width: 45%;
+    display: inline-block;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+.support .text textarea {
+    width: 95%;
+    padding: 25px;
+}
+
+.support .text button {
+    width: 16%;
+}
+footer {
+    padding: 30px 50px;
+    background-color: #4e4e4e;
+    color: #ffffff;
+    }
+    footer .left, footer .middle,footer .right{
+    width: calc(100%/3.5);
+    display: inline-block;
+    
+    }
+    
+    footer .middle {
+        padding-top: 20px;
+        margin-right: 30px;
+        text-align: center;
+    }
+    footer .middle h3 {
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    footer .right {
+        position: relative;
+        bottom: 35px;
+    }
+    footer .right label{
+    font-weight: bold;
+    font-size: 25px;
+    }
+    footer .right input{
+        display: inline-block;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #10db09;
+        background-color: #10db09;
+    }
+    footer .right .icon{
+        width: 60px;
+        border-radius: 10px;
+        height: 35px;
+        display: inline-block;
+        background-color:#10db09;
+        text-align: center;
+        margin-left: 15px;
+    }
+    footer .right a{
+        font-size: 25px;
+        display: inline-block;
+    }
+    .middle li {
+        list-style: none;
+    }
